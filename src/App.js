@@ -11,6 +11,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css'; // Import the styles
 function App() {
   const [todos, setTodos] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const [a, setA] = useState('');
   
 
   const fetchTodos = () => {
