@@ -1,0 +1,9 @@
+.confirm-dialog-content {
+  padding: 16px 10px;
+}
+
+.confirm-dialog-content .mantine-Group-root {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}

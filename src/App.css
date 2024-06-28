@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+  background-color: rgb(111, 174, 197);
+  border-radius: 20px;
+  width: 500px;
+  
+    border-bottom: 4px solid rgb(17, 4, 4);
+    border-top:4px solid black ;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+.text{
+ 
+  width: 200px;
+  box-shadow: 0px 0px 8px;
+}
+.search {
+  text-align: center;
+  background-color:rgb(227, 231, 237);
+  border-color: #4ca7c0;
+  text-decoration: solid;
+  width: 200px;
+  border-radius: 10px;
+  border-color: rgb(50, 50, 120);
+  height: 2.5rem;
+  padding: 0 12px ;
+  box-shadow: 0px 0px 8px;
+  display: flex;
+  font-size: 14;
+  margin-left: 30px;
+  
+}
+.area1{
+  background-color:rgb(227, 231, 237);
+  border: none;
+  font-size: 12;
+  height: 40px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0px 0px 8px;
+  margin-left: 1px ;
+  
+}
+.delete{
+  width: 50px; /* Set a fixed width for the button */
+  margin-left: 100px; /* Space between label and button */
+  background-color: rgb(226, 218, 232);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px;
+  height: 20px;
+  border-radius: 50px;;
+}
+.delete:hover {
+  background-color:rgb(99, 94, 104);
+}
+.container{
+  display: flex;
+  gap: 5px;
+}
+.area {
+  background-color:transparent;
+  border: none;
+  height: 40px;
+  font-size: 12;
+  width: 200px;
+  margin-left: 5px ;
+}
+.button{
+  margin-left: 5px;
+  border-radius: 10px;
+
+background-color:rgb(226, 218, 232);
+align-items:flex-start;
+box-shadow: 0px 0px 8px;
+height: 35px;
+border: none;
+
+}
+.button:hover {
+  background-color:rgb(99, 94, 104);;
+}
+.App-header {
+  background-color: #3d517f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(229, 212, 212);
+}
+.select{
+  background-color: blueviolet;
+ justify-content:left ;
+
+}
+.App1 {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  margin-right: 0.5rem;
+  background-color: rgb(111, 174, 197);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  margin-left: 30px;
+  text-align: center;
+  color:rgb(50, 62, 16);
+  padding: 50 px;
+
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark {
+  background-color: #333333;
+  color: #181717;
+}
+.b2{
+  border: none;
+  align-items:flex-start;
+
+}
+/* Add this CSS to your stylesheet */
+
+.custom-overlay {
+  background-color: rgba(167, 68, 68, 0.75);
+}
+
+.custom-class {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
